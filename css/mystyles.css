@@ -2,6 +2,13 @@ body {
     background-color: rgb(255, 255, 255) !important ;
 }
 
+.nav {
+    margin-top: 373px;
+    text-align: center;
+    float:none;
+}
+
 #navbar {
     background-color: rgb(59, 59, 59) !important ;
 }
+
