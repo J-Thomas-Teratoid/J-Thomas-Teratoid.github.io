@@ -3,12 +3,25 @@ body {
 }
 
 .nav {
-    margin-top: 373px;
-    text-align: center;
-    float:none;
+    height: 100%; 
+    width: 200px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    overflow-x: hidden;
+    background-color: rgb(59, 59, 59) !important ;
+    padding-top: 20px;
 }
 
-#navbar {
-    background-color: rgb(59, 59, 59) !important ;
+.nav .nav-item{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+.main {
+    margin-left: 200px;
 }
 
