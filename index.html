@@ -9,53 +9,67 @@
 </head>
 <body>
     <div class = "container-fluid">
-        <div class='row'>
-            <ul class='nav justify-content-center'>
-                <div id = 'buttons'>
-                    <li class='nav-item'>
-                        <a class='nav-link active' aria-current='page' href='#'>jmsakjdkalsdsa</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link active' aria-current='page' href='#'>Active</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link active' aria-current='page' href='#'>Activedssfd</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link active' aria-current='page' href='#'>A</a>
-                    </li>
-                </div>
-            </ul>
-            <div class = "main">
+        <ul class='nav justify-content-center'>
+            <div id = 'buttons'>
+                <li class='nav-item'>
+                    <a class='nav-link active' aria-current='page' href='#'>jmsakjdkalsdsa</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link active' aria-current='page' href='#'>Active</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link active' aria-current='page' href='#'>Activedssfd</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link active' aria-current='page' href='#'>A</a>
+                </li>
+            </div>
+        </ul>
+        <div class = "main">
+            <div class='row'>
                 <h1 class = 'text-center'>About Me</h1> 
                 <p>Hello, and welcome to my portfolio website.</p>
-                <p>I am a young developer that is just starting his journing into the industry after completing my level 3 qualification, and I am currently building my experience while seeking an role in software. I have the most experience with web development with PHP, though I've also know other languages such as JavaScript, CSS, SQL and C# through my projects in unity.</p>
+                <p>I am a young developer that is just starting his journing into the industry after completing my level 3 qualification, and I am currently building my experience while seeking a role in software. This website is a collection of the projects I currently have that I have worked on over my time as a developer. While this isn't all of the projects I have worked on, this website </p>
                 <h1 class = 'text-center'>Portfolio</h1>
-                <div class = "row">
-                    <div class = 'p-3 g-col-12'>
-                        <p class = 'fs-5'>Weather Website Template - November 2023</p>
-                        <p class = 'fs-6'>This website was originally used to research how to implement features into the final assessment piece we were tasked to make for the T Level course. Since finishing the course, I have fleshed it out further into a full weather forecast website, air quality forecast, placeholder articles and other features. 
-                        This website was made primarily using PHP, with weather API's such and openweathermap and tomorrow.io.</p>
-                        <a class = 'btn btn-outline-dark ' href='https://weatherwebsitetemplate.000webhostapp.com'>Go to website</a>
+                <div id = 'TheDropImages' class = 'col-6 carosel slide carousel-fade' data-bs-ride='carousel'>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src='img/placeholder.png' class='img-thumbnail d-block w-100'>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src='img/placeholder.png' class='img-thumbnail d-block w-100'>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src='img/placeholder.png' class='img-thumbnail d-block w-100'>
+                        </div>
                     </div>
-                    <br>
-                    <div class = 'p-3 g-col-12'>
-                        <img src='img/Screenshot (1).png' class='img-thumbnail' width='25%' height='25%'>
-                        <img src='img/Screenshot (2).png' class='img-thumbnail' width='25%' height='25%'>
-                        <img src='img/Screenshot (3).png' class='img-thumbnail' width='25%' height='25%'>
-                        <p class = 'fs-5'>The Drop - May 2023</p>
-                        <p class = 'fs-6'>This is a unity game concept made within a week as part of my DMU work experience. This was developed by me and another person on the work experience course. This is a simple game that involves the player falling through a map, avoiding randomly generated obstacles. There is also a dash power to help the player avoid obstacles. </p>
-                        <a class = 'btn btn-outline-dark ' href='files/The Drop.zip' download>Download</a>
+                </div>
+                <div class = 'col-6'>
+                    <p class = 'fs-5'>Weather Website Template - November 2023</p>
+                    <p class = 'fs-6'>This website was originally used to research how to implement features into the final assessment piece we were tasked to make for the T Level course. Since finishing the course, I have fleshed it out further into a full weather forecast website, air quality forecast, placeholder articles and other features. 
+                    This website was made primarily using PHP, with weather API's such and openweathermap and tomorrow.io.</p>
+                    <a class = 'btn btn-outline-dark ' href='https://weatherwebsitetemplate.000webhostapp.com'>Go to website</a>
+                </div>
+                <br>
+                <div id = 'TheDropImages' class = 'col-6 carosel slide carousel-fade' data-bs-ride='carousel'>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src='img/Screenshot (1).png' class='img-thumbnail d-block w-100'>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src='img/Screenshot (2).png' class='img-thumbnail d-block w-100'>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src='img/Screenshot (3).png' class='img-thumbnail d-block w-100'>
+                        </div>
                     </div>
-                    <br>
-                    <div class = 'p-3 g-col-12'>
-                        <img src='img/Screenshot (1).png' class='img-thumbnail' width='25%' height='25%'>
-                        <img src='img/Screenshot (2).png' class='img-thumbnail' width='25%' height='25%'>
-                        <img src='img/Screenshot (3).png' class='img-thumbnail' width='25%' height='25%'>
-                        <p class = 'fs-5'>The Drop - May 2023</p>
-                        <p class = 'fs-6'>This is a unity game concept made within a week as part of my DMU work experience. This was developed by me and another person on the work experience course. This is a simple game that involves the player falling through a map, avoiding randomly generated obstacles. There is also a dash power to help the player avoid obstacles. </p>
-                        <a class = 'btn btn-outline-dark ' href='files/The Drop.zip' download>Download</a>
-                    </div>
+                </div>
+                <div class = 'col-6'>
+                    <p class = 'fs-5'>The Drop - May 2023</p>
+                    <p class = 'fs-6'>This is a unity game concept made within a week as part of a game jam that we did at DeMonfort University on work experience. This was developed by me and a friend on the work experience course. <br><br>
+                    This is a simple dropper game that involves the player falling through a map, avoiding randomly generated obstacles, with a dash ability for avoiding harder obstacles and ring powerups that will speed up or slow down the drop rate of the player.<br><br>
+                    Both me and my friend worked on the code for this game. I also worked on most of the models, excluding the cloud models, which are from <a href = 'https://assetstore.unity.com/packages/3d/3le-low-poly-cloud-pack-65911'>The Fallout Nerd's 3LE Low Poly Cloud Pack</a>. While this game is very barebones, there were many features of this game that was a challenge to develop, such as the level generation.</p>
+                    <a class = 'btn btn-outline-dark ' href='files/The Drop.zip' download>Download</a>
                 </div>
             </div>
         </div>
