@@ -18,19 +18,34 @@
                     <a class='nav-link active' aria-current='page' href='#Portfolio'>Portfolio</a>
                 </li>
                 <li class='nav-item'>
-                    <a class='nav-link active' aria-current='page' href='#AboutMe'>Placeholder</a>
+                    <a class='nav-link active' data-bs-toggle="offcanvas" href="#contacts" aria-controls="contacts" role="button">Contacts</a>
                 </li>
                 <li class='nav-item'>
                     <a class='nav-link active' aria-current='page' href='#AboutMe'>Placeholder</a>
                 </li>
             </div>
         </ul>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="contacts" aria-labelledby="contactsLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="contactsLabel">Contacts</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+              </div>
+              <div class="dropdown mt-3">
+              </div>
+            </div>
+          </div>
         <div class = "main">
             <div data-bs-spy="scroll" data-bs-target="#buttons" data-bs-offset="0" data-bs-smooth-scroll="true">
                 <div id = 'AboutMe'>
-                    <h1 class = 'text-center'>About Me</h1> 
-                    <p style='padding-left: 5%; padding-right: 5%;'>Hello, and welcome to my portfolio website.</p>
-                    <p style='padding-left: 5%; padding-right: 5%;'>I am a young developer that is just starting his journing into the industry after completing my level 3 qualification, and I am currently building my experience while seeking a role in software. This website is a collection of the projects I currently have that I have worked on over my time as a developer. While this isn't all of the projects I have worked on, this website exists as a showcase of my development journey throughout the years of me working on projects.</p>
+                    <h1 class = 'text-center'>About Me</h1>
+                    <div class = 'card card-body mx-auto' style='width: 75rem;'>
+                        <p>Hello, and welcome to my portfolio website.</p>
+                        <p>I am a young developer that is just starting his journing into the industry after completing my level 3 qualification, and I am currently building my experience while seeking a role in software. This website is a collection of the projects I currently have that I have worked on over my time as a developer. While this isn't all of the projects I have worked on, this website exists as a showcase of my development journey throughout the years of me working on projects.</p>
+                    </div>
                 </div>
                 <div id = 'Portfolio' class = 'row'>
                     <h1 class = 'text-center'>Portfolio</h1>
@@ -73,6 +88,7 @@
                         Both me and my friend worked on the code for this game. I also worked on most of the models, excluding the cloud models, which are from <a href = 'https://assetstore.unity.com/packages/3d/3le-low-poly-cloud-pack-65911'>The Fallout Nerd's 3LE Low Poly Cloud Pack</a>. While this game is very barebones, there were many features of this game that was a challenge to develop, such as the level generation.</p>
                         <a class = 'btn btn-outline-dark ' href='files/The Drop.zip' download>Download</a>
                     </div>
+                    <h1 class = 'text-center'>About Me</h1>
                 </div>
             </div>
         </div>
