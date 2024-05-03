@@ -2,7 +2,6 @@ body {
     background-color: rgb(255, 255, 255) !important ;
     max-width: 100%;
     overflow-x: hidden;
-    padding-right: 1%;
 }
 
 .nav {
@@ -15,19 +14,17 @@ body {
     overflow-x: hidden;
     background-color: rgb(59, 59, 59) !important ;
     text-align: center;
-    
 }
 
 .nav .nav-item{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
-    display: flex;
-    justify-content: space-between;
+    display: block;
 }
 
 #buttons{
-    margin-top: 300px;
+    margin-top: 250%;
 }
 
 .main {
@@ -37,5 +34,45 @@ body {
 
 .carosel{
     padding-bottom: 1%;
+}
+
+@media screen and (max-width: 700px) {
+    .nav{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #nav{
+        padding: 0;
+    }
+
+    .nav .nav-item {
+        float: left;
+    }
+
+    .main {
+        margin-left: 0;
+
+    }
+
+    #buttons {
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    .nav .nav-item {
+      text-align: center;
+      float: none;
+      width: 100%;
+    }
+
+    #buttons {
+        margin-top: 0px;
+        padding-left: 12%;
+    }
+
 }
 
