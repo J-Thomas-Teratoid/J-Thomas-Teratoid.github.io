@@ -30,13 +30,14 @@ body {
 .main {
     margin-left: 200px;
     width: 91%;
+    padding-right: 40px;
 }
 
 .carosel{
     padding-bottom: 1%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     .nav{
         width: 100%;
         height: auto;
@@ -53,7 +54,7 @@ body {
 
     .main {
         margin-left: 0;
-
+        padding-right: 0;
     }
 
     #buttons {
