@@ -1,10 +1,29 @@
-body {
+body 
+{
     background-color: rgb(255, 255, 255) !important ;
     max-width: 100%;
     overflow-x: hidden;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
 }
 
-.nav {
+h1 
+{
+    font-size: 40px;
+}
+
+h5
+{
+    font-size: 24px; 
+}
+
+p
+{
+    font-size: 16px; 
+}
+
+.nav 
+{
     height: 100%; 
     width: 200px; 
     position: fixed; 
@@ -12,66 +31,84 @@ body {
     top: 0; 
     left: 0;
     overflow-x: hidden;
-    background-color: rgb(59, 59, 59) !important ;
+    background-color:rgb(40, 40, 40) !important ;
     text-align: center;
+    font-weight: 400;
 }
 
-.nav .nav-item{
+.nav-item
+{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     display: block;
 }
 
-#buttons{
-    margin-top: 250%;
+#buttons
+{   
+    margin: 35vh 0px 35vh 0px; 
 }
 
-.main {
+.main 
+{
     margin-left: 200px;
     width: 91%;
     padding-right: 40px;
 }
 
-.carosel{
+.carosel
+{
     padding-bottom: 1%;
 }
 
+.btn
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
 @media screen and (max-width: 768px) {
-    .nav{
+    .nav
+    {
         width: 100%;
         height: auto;
         position: relative;
     }
 
-    #nav{
+    #nav
+    {
         padding: 0;
     }
 
-    .nav .nav-item {
+    .nav-item 
+    {
         float: left;
     }
 
-    .main {
+    .main 
+    {
         margin-left: 0;
         width: 100%;
         padding-right: 0;
     }
 
-    #buttons {
-        margin-top: 0px;
+    #buttons 
+    {
+        margin: 0px;
     }
 
 }
 
-@media screen and (max-width: 440px) {
-    .nav .nav-item {
+@media screen and (max-width: 504px) {
+    .nav-item 
+    {
       text-align: center;
       float: none;
       width: 100%;
     }
 
-    #buttons {
+    #buttons 
+    {
         margin-top: 0px;
         padding-left: 12%;
     }
