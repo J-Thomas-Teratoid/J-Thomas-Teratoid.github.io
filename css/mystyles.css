@@ -30,7 +30,7 @@ p
     z-index: 1; 
     top: 0; 
     left: 0;
-    overflow-x: hidden;
+    overflow: hidden;
     background-color:rgb(40, 40, 40) !important ;
     text-align: center;
     font-weight: 400;
@@ -52,8 +52,7 @@ p
 .main 
 {
     margin-left: 200px;
-    width: 91%;
-    padding-right: 40px;
+    width: 85%;
 }
 
 .carosel
@@ -61,13 +60,14 @@ p
     padding-bottom: 1%;
 }
 
+
 .btn
 {
     font-size: 20px;
     font-weight: 500;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .nav
     {
         width: 100%;
@@ -110,7 +110,6 @@ p
     #buttons 
     {
         margin-top: 0px;
-        padding-left: 12%;
     }
 
 }
